@@ -1,7 +1,13 @@
 module.exports = {
+  'env': {
+    'node': true,
+  },
   extends: [
     'eslint-config-standard',
   ],
+  'parserOptions': {
+    'parser': 'babel-eslint',
+  },
   rules: {
     'semi': [
       'error',
@@ -43,6 +49,7 @@ module.exports = {
       'always',
       {
         'js': 'never',
+        'vue': 'never',
       },
     ],
   },
