@@ -4,6 +4,7 @@ module.exports = {
   },
   extends: [
     'eslint-config-standard',
+    "eslint:import",
   ],
   'parserOptions': {
     'parser': 'babel-eslint',
