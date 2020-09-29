@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    './index.js',
-    'plugin:vue/essential',
     '@vue/standard',
+    'plugin:vue/essential',
+    './index.js',
   ],
   rules: {
     'vue/html-indent': 'error',

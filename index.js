@@ -1,38 +1,36 @@
 module.exports = {
-  'env': {
-    'node': true,
+  env: {
+    node: true,
   },
   extends: [
     'eslint-config-standard',
   ],
-  'parserOptions': {
-    'parser': 'babel-eslint',
+  parserOptions: {
+    parser: 'babel-eslint',
   },
-
   plugins: [
     'import',
   ],
-
   rules: {
-    'semi': [
+    semi: [
       'error',
       'never',
     ],
-    'indent': [
+    indent: [
       'error',
       2,
     ],
     'comma-dangle': [
       'error',
       {
-        'arrays': 'always',
-        'objects': 'always',
-        'imports': 'never',
-        'exports': 'never',
-        'functions': 'ignore',
+        arrays: 'always',
+        objects: 'always',
+        imports: 'never',
+        exports: 'never',
+        functions: 'ignore',
       },
     ],
-    'quotes': [
+    quotes: [
       'error',
       'single',
     ],
@@ -43,7 +41,7 @@ module.exports = {
     'no-console': [
       'error',
       {
-        'allow': [
+        allow: [
           'warn',
           'error',
         ],
@@ -53,8 +51,8 @@ module.exports = {
       'error',
       'always',
       {
-        'js': 'never',
-        'vue': 'never',
+        js: 'never',
+        vue: 'never',
       },
     ],
   },
