@@ -23,8 +23,8 @@ module.exports = {
     'comma-dangle': [
       'error',
       {
-        arrays: 'always',
-        objects: 'always',
+        arrays: 'always-multiline', // only enforce trailing comma's for multiline definitions
+        objects: 'always-multiline', // only enforce trailing comma's for multiline definitions
         imports: 'never',
         exports: 'never',
         functions: 'ignore',
@@ -33,6 +33,10 @@ module.exports = {
     quotes: [
       'error',
       'single',
+    ],
+    'array-bracket-spacing': [
+      'error',
+      'always',
     ],
     'object-curly-spacing': [
       'error',
