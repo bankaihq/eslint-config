@@ -34,6 +34,9 @@ module.exports = {
       'error',
       'single',
     ],
+    'array-element-newline': [
+      'error', 'consistent',
+    ],
     'array-bracket-spacing': [
       'error',
       'always',
