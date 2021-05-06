@@ -22,13 +22,7 @@ module.exports = {
     ],
     'comma-dangle': [
       'error',
-      {
-        arrays: 'always-multiline', // only enforce trailing comma's for multiline definitions
-        objects: 'always-multiline', // only enforce trailing comma's for multiline definitions
-        imports: 'never',
-        exports: 'never',
-        functions: 'ignore',
-      },
+      'always-multiline',
     ],
     quotes: [
       'error',
